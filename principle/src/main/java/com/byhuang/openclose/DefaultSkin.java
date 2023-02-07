@@ -1,4 +1,4 @@
-package com.byhuang;
+package com.byhuang.openclose;
 
 /**
  * @author huangbingyi

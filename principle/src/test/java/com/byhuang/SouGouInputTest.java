@@ -1,5 +1,7 @@
 package com.byhuang;
 
+import com.byhuang.openclose.SouGouInput;
+import com.byhuang.openclose.SpecialSkin;
 import org.junit.Test;
 
 /**
