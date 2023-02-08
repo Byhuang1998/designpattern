@@ -1,7 +1,7 @@
 package com.byhuang.singleton.lazy;
 
 /**
- * @author mskj-huangbingyi
+ * @author huangbingyi
  * @version 1.0
  * @date 2023/2/8 15:46
  * @description 懒汉式
