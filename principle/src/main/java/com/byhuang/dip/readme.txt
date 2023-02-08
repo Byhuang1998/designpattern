@@ -1,0 +1,10 @@
+所谓依赖倒置原则（Dependence Inversion Principle）就是要依赖于抽象，不要依赖于具体实现。
+简单的说就是要求对抽象进行编程，不要对实现进行编程，这样就降低了客户与实现模块间的耦合。
+实现开闭原则的关键是抽象化，并且从抽象化导出具体化实现，如果说开闭原则是面向对象设计的目标的话，
+那么依赖倒转原则就是面向对象设计的主要手段。
+
+demo说明：
+before目录下：Computer类有三个成员属性，依赖于具体的实现，IntelCPU,KingstonMemory,XiJieHardDisk三个类。
+从而ComputerDemo中生成一个Computer实例，只能是这三种依赖的具体实现。
+after目录下：Computer类的成员属性则依赖于抽象，让具体的类去继承抽象。这样ComputerDemo类中生成Computer实例
+就可以依赖于将来新的类，比如AmdCPU
