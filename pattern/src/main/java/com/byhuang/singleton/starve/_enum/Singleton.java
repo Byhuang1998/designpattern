@@ -1,4 +1,4 @@
-package com.byhuang.singleton.villain._enum;
+package com.byhuang.singleton.starve._enum;
 
 /**
  * @author huangbingyi
