@@ -3,7 +3,7 @@ package com.byhuang.isp.after;
 import com.byhuang.isp.before.HeimaSafetyDoor;
 
 /**
- * @author mskj-huangbingyi
+ * @author huangbingyi
  * @version 1.0
  * @date 2023/2/8 12:10
  * @description TODO

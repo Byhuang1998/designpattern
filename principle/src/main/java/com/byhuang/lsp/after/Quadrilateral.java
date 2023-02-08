@@ -1,7 +1,7 @@
 package com.byhuang.lsp.after;
 
 /**
- * @author mskj-huangbingyi
+ * @author huangbingyi
  * @version 1.0
  * @date 2023/2/7 21:22
  * @description 四边形基类
