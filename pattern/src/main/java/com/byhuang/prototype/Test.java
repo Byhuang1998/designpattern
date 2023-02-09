@@ -1,7 +1,7 @@
 package com.byhuang.prototype;
 
 /**
- * @author mskj-huangbingyi
+ * @author huangbingyi
  * @version 1.0
  * @date 2023/2/9 15:26
  * @description TODO
