@@ -11,5 +11,7 @@ public class ProxyPoint implements SellTickets {
     @Override
     public void sell() {
         System.out.println("代理点收取一些服务费，模拟方法增强");
+        TrainStation station = new TrainStation();
+        station.sell();
     }
 }
