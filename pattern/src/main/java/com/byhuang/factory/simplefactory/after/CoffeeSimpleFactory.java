@@ -8,7 +8,7 @@ package com.byhuang.factory.simplefactory.after;
  */
 public class CoffeeSimpleFactory {
 
-    public void produceCoffee(String type) throws Exception {
+    public static void produceCoffee(String type) throws Exception {
         Coffee coffee;
         if ("America".equals(type)) {
             coffee = new AmericaCoffee();

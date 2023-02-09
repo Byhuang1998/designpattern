@@ -10,9 +10,7 @@ public class CoffeeStore {
 
     public void orderCoffee(String type) throws Exception {
 
-        CoffeeSimpleFactory coffeeSimpleFactory = new CoffeeSimpleFactory();
-
-        coffeeSimpleFactory.produceCoffee(type);
+        CoffeeSimpleFactory.produceCoffee(type);
 
     }
 }
